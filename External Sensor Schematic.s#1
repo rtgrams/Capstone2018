@@ -1883,15 +1883,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="LM35_TH">
 <packages>
 <package name="Z03A">
-<pad name="1" x="-3.175" y="0" drill="0.8" shape="square"/>
-<pad name="2" x="-1.27" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="3" x="0.635" y="0" drill="0.8" shape="long" rot="R90"/>
-<wire x1="-3.429" y1="0" x2="-2.921" y2="0" width="0.1524" layer="51"/>
-<wire x1="-3.175" y1="-0.254" x2="-3.175" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-3.81" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="51"/>
+<pad name="1" x="-2.54" y="0" drill="0.762" diameter="1.0414" shape="square"/>
+<pad name="2" x="-1.27" y="0" drill="0.762" diameter="1.0414" shape="long" rot="R90"/>
+<pad name="3" x="0" y="0" drill="0.762" diameter="1.0414" shape="long" rot="R90"/>
+<wire x1="-3.3274" y1="-1.7272" x2="0.7874" y2="-1.7272" width="0.1524" layer="21"/>
+<wire x1="1.4478" y1="0" x2="0.889" y2="-1.6764" width="0.1524" layer="21" curve="-37"/>
+<wire x1="-3.429" y1="-1.6764" x2="1.4732" y2="0" width="0.1524" layer="21" curve="-217"/>
+<wire x1="-2.794" y1="0" x2="-2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-0.254" x2="-2.54" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-3.3274" y1="-1.5748" x2="0.7874" y2="-1.5748" width="0.1524" layer="51"/>
 <wire x1="-3.5052" y1="0" x2="-3.7592" y2="0" width="0" layer="51" curve="-180"/>
 <wire x1="-3.7592" y1="0" x2="-3.5052" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-3.81" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="51" curve="-255"/>
+<wire x1="-3.3274" y1="-1.5748" x2="0.7874" y2="-1.5748" width="0.1524" layer="51" curve="-255"/>
 <text x="-3.81" y="-3.81" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="Z03AM">
@@ -2248,17 +2251,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,-119.38,20.32,BAT1,-,GND,,,"/>
-<approved hash="104,1,-119.38,30.48,BAT1,+,VIN,,,"/>
-<approved hash="104,1,-104.14,20.32,BAT2,-,GND,,,"/>
-<approved hash="104,1,-104.14,30.48,BAT2,+,VIN,,,"/>
-<approved hash="104,1,-33.02,27.94,U1,PGND,GND,,,"/>
-<approved hash="113,1,-97.8323,-42.9539,JP1,,,,,"/>
-<approved hash="113,1,-59.7323,-42.9539,JP2,,,,,"/>
-<approved hash="113,1,-7.724,-1.374,FRAME1,,,,,"/>
-<approved hash="113,1,-10.16,15.8217,D1,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
